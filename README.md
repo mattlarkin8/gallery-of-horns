@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# About this App
+
+Gallery of Horns is an application that displays images and information for different horned animals. It allows the user to filter the images by number of horns and choose a favorite image.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

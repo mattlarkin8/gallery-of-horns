@@ -18,11 +18,11 @@ Number and name of feature: Feature #2: Allow users to vote for their favorite b
 
 Estimate of time needed to complete: 30 minutes
 
-Start time: 
+Start time: 7:00
 
-Finish time: 
+Finish time: 7:15
 
-Actual time needed to complete:   
+Actual time needed to complete: 15 minutes  
 
 Number and name of feature: Feature 3: Bootstrap
 

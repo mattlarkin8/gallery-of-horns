@@ -26,10 +26,10 @@ Actual time needed to complete: 15 minutes
 
 Number and name of feature: Feature 3: Bootstrap
 
-Estimate of time needed to complete: 30 minutes
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 7:45
 
-Finish time: 
+Finish time: 9:00
 
-Actual time needed to complete:   
+Actual time needed to complete: 1 hour 15 minutes  

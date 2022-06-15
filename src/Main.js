@@ -1,12 +1,20 @@
-import React from "react";
-import HornedBeast from "./HornedBeast";
+import React from 'react';
+import HornedBeast from './HornedBeast';
+import data from './data.json'
+import './Main.css'
 
 class Main extends React.Component{
   render(){
+    let beasts = data.map(a=>{
+      return<HornedBeast
+      title={a.title}
+      imageUrl={a.image_url}
+      description={a.description}
+      />
+    });
     return(
     <main>
-      <HornedBeast title="Big Icon" imageUrl="./logo512.png" description="Large React Icon"/>
-      <HornedBeast title="Small Icon" imageUrl="./logo192.png" description="Small React Icon"/>
+      {beasts}
     </main>
     );
   }

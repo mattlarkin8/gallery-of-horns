@@ -4,6 +4,8 @@ Gallery of Horns is an application that displays images and information for diff
 
 ## Time Estimate
 
+### Lab02
+
 Number and name of feature: Feature #1: Display images
 
 Estimate of time needed to complete: 30 minutes
@@ -33,3 +35,15 @@ Start time: 7:45
 Finish time: 9:00
 
 Actual time needed to complete: 1 hour 15 minutes  
+
+### Lab03
+
+Number and name of feature: Feature #1: Display a Modal
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 6:45
+
+Finish time: 9:45
+
+Actual time needed to complete: 3 hours  

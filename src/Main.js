@@ -4,18 +4,20 @@ import './Main.css'
 
 class Main extends React.Component{
   render(){
-    let beasts = this.props.data.map(a=>{
+    let beasts = this.props.data.map((beast,idx)=>{
       return<HornedBeast
-      title={a.title}
-      imageUrl={a.image_url}
-      description={a.description}
+      title={beast.title}
+      imageUrl={beast.image_url}
+      description={beast.description}
+      key={idx}
+      handleOnShow={this.props.handleOnShow} 
       />
     });
     return(
     <main>
       {beasts}
     </main>
-    );
+    )
   }
 }
 

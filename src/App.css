@@ -2,3 +2,23 @@ body{
   background-color: #444;
   width: 100%;
 }
+
+.form-select{
+  font-size: 20px;
+  width: fit-content;
+  margin-left: 10px;
+  display: inline;
+  background-color: darkgray;
+}
+
+.form-select:hover{
+  background-color: gray;
+  transition: 400ms;
+}
+
+#form-p{
+  font-size: 30px;
+  width: fit-content;
+  margin-left: 50px;
+  display: inline;
+}

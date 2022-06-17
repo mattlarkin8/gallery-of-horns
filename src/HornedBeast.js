@@ -22,7 +22,7 @@ class HornedBeast extends React.Component{
 
   render(){
     return(
-      <Card style={{ width: '20rem' }}>
+      <Card as="card" style={{ width: '20rem' }}>
         <Card.Header as="h2">{this.props.title}</Card.Header>
         <Card.Img onClick={this.handleImgClick} src={this.props.imageUrl} alt={this.props.title}/>
         <Card.Body as="card-body">

@@ -6,6 +6,7 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast';
+import Form from 'react-bootstrap/Form'
 
 class App extends React.Component{
   constructor(props){
@@ -71,18 +72,18 @@ class App extends React.Component{
     return (
       <>
         <Header/>
-        <form>
-          <fieldset>
-            <legend>Sort by Horns</legend>
-            <select name="selected" onChange={this.handleChange}>
+        <Form as="form">
+          <Form.Group>
+            <p id="form-p">Sort by Horns</p>
+            <Form.Select as="form-select" name="selected" onChange={this.handleChange}>
               <option value="all">All</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="100">100</option>
-            </select>
-          </fieldset>
-        </form>
+            </Form.Select>
+          </Form.Group>
+        </Form>
         <Main
         data={this.state.sort}
         handleOnShow={this.handleOnShow} 

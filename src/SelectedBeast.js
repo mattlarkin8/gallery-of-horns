@@ -12,7 +12,7 @@ class SelectedBeast extends React.Component{
         <Modal.Body as="modal-body">
           <img src={this.props.selectedBeast} alt={this.props.beastDesc} width="500" height="500"></img>
           <p>{this.props.beastDesc}</p>
-          </Modal.Body>
+        </Modal.Body>
       </Modal>
       </>
     )
